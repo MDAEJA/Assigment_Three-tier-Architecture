@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-tier Architecture Model</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Three-tier Architecture Model</h1>
+    <div class="main-div">
+        <p>Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where application data is stored and managed.</p>
+    </div>
+    <div >
+      <div style="margin: 10px 35%;">
+        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*cijxManrSraOP6A49bUZ-g.png" width="100%" height="100%"></img>
+      </div>
+        
+    </div>
+    <div style="padding: 10px 20%; " >
+        <ol style="margin-top: 10px; display: flex; flex-direction: column; gap: 20px; font-family: 'Times New Roman', Times, serif;font-style: oblique;">
+          <li><h3 style="text-decoration: underline; margin-bottom: 10px;">Presentation Tier:</h3> At the apex of the architecture lies the Presentation Tier, which serves as the interface between the application and its users. This tier encompasses the user interfaces that users directly interact with, whether it’s a web browser, a mobile app, or a desktop application. Its primary responsibilities include rendering information to users and processing their inputs.</li>
+          <li>
+            <h3 style="text-decoration: underline; margin-bottom: 10px;">Application Tier (or Business Logic Tier): </h3>
+            Positioned in the middle, the Application Tier acts as the engine that drives the application’s logic. It serves as a hub for processing and managing data, implementing intricate business rules, and executing various operations crucial for the application’s functionality. The Application Tier serves as a conduit between the Presentation Tier and the Data Tier, orchestrating the flow of information and actions within the application.
+          </li>
+          <li>
+            <h3 style="text-decoration: underline; margin-bottom: 10px;">Data Tier:</h3>
+             Anchoring the architecture is the Data Tier, which is dedicated to the storage and management of data. This tier encompasses databases and other data storage systems where information is persistently stored. It assumes responsibility for tasks such as storing, retrieving, and updating data as per the application’s requirements.
+          </li>
+        </ol>
+    </div>
+
+    <div style="padding: 10px 20%;">
+      <h2 style="text-align: center;">Advantages</h2>
+
+      <ol style="margin-top: 10px; display: flex; flex-direction: column; gap: 20px; font-family: 'Times New Roman', Times, serif;font-style: oblique;">
+        <li><h3 style="text-decoration: underline; margin-bottom: 10px;">Modularity :</h3> The architecture fosters a modular approach, allowing developers to segregate the application into distinct layers. This facilitates easier management and maintenance of the codebase.</li>
+        <li>
+          <h3 style="text-decoration: underline; margin-bottom: 10px;">Scalability : </h3>
+          By enabling each tier to be scaled independently based on demand, the architecture ensures optimal performance even under varying loads. This scalability is particularly advantageous in scenarios where certain tiers experience heightened activity while others remain relatively idle.
+        </li>
+        <li>
+          <h3 style="text-decoration: underline; margin-bottom: 10px;">Ease and maintenance:</h3>
+          With the separation of concerns inherent in the architecture, developers can modify, update, or enhance each layer independently without disrupting the functionality of other layers. This promotes agility and streamlines the maintenance process.
+        </li>
+        <li>
+          <h3 style="text-decoration: underline; margin-bottom: 10px;">Reusability:</h3>
+          Components developed within the Three-Tier Architecture are inherently reusable, fostering a culture of code reuse and promoting efficiency in development efforts.
+        </li>
+      </ol>
+    </div>
+
+
+</body>
+</html>

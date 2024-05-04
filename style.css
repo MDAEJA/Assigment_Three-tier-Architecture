@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    padding: 20px 20%;
+    font-style: oblique;
+    line-height: 20px;
+    text-align: center;
+}
